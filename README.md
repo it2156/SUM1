@@ -46,9 +46,13 @@ The repository was cloned into a local version for VS Code, which was used to cr
 
 The html and css pages were generated using Figma's developer mode. The code was copied into VCS and Live Studio was used iteratively to edit the code. 
 
+<<<<<<< HEAD
 The html pages were created in order to have the main page containers set. Each html page corresponds to a different section of the complaint form. The html pages contain general sections and divisions (div), which are styled using linked css files. For example, the LandingPage.html was linked to its corresponding css file. A global css file contains the elements that are common to all the app pages. 
 
 The main interactive element is navigation, which happens by clicking the 'back' arrow on the 'Issues' page (second page) or clicking on the 'Planning' box on the first page. The jss files were generated using code from www.shecodes.io (n.d.) and www.w3schools.com, (n.d.). The links are in the references list. 
+=======
+The main interactive element is navigation, which happens by clicking on one of the question options.
+>>>>>>> 65323c5bde7a1ecf2ed3ba4795da7db4dc923861
 
 
 ## Testing
