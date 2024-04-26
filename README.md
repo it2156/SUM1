@@ -23,7 +23,7 @@ After the first iteration of the app will be completed, the wireframe will be te
 
 
 ### Location
-[Here](https://it2156.github.io/Complaint-log/) is the live app. The project is still in development - there are several pages that need to be added and the functionality of some of the buttons on the landing page do not work. 
+[Here](https://it2156.github.io/SUM1/) is the live app. The project is still in development - there are several pages that need to be added and the functionality of some of the buttons on the landing page do not work. 
 
 
 ## Project plan
