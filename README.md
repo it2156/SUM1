@@ -1,1 +1,70 @@
-# SUM1
+# Logging complaints
+The project proposal is to create a form that allows customers to log complaints regarding the services they receive from our organisation. The customers are residents that can choose from a variety of services, such as waste management and housing repairs. Their contact details and requests are already stored into an internal CRM system. However, the current form used for logging complaints is tedious and confusing for the customer and it does not capture the essential information needed for performance analysis; the complaints typically come as large paragraphs of text, which make it difficult to extract the key information required for contract management.  
+
+Therefore, this application proposes to allow the customer to log a complaint quickly and efficiently, whilst allowing our organisation to collect accurate data, which will later be used to inform service improvements.  
+
+## User requirements 
+
+![Screenshot](empathy-map.JPG)
+
+This iteration of the app was developed with the director of the service as main customer. She provided the main user requirements and commented on the wireframe. In terms of channels, she confirmed that most customers use their phone to log complaints, therefore the form needs to be split into small, manageable chunks and the text needs to be kept at a minimum. The app also encourages customers to think about the key issue that is the topic of the complaint, as currently the customer input comes as long paragraphs that contain several issues, most of which have happened in the past, but no longer require our services.  
+
+## Design
+![Screenshot](complaints-log.png) 
+
+The picture above shows the proposed low fidelity design of the application. This was prototyped using Figma as a wireframe (low fidelity version of the app). The wireframe consists of five pages - the approach is to gradually take the customer through a series of branched questions that help us get progressively more details about the complaint. 
+
+
+### User feedback
+
+The feedback for this iteration was discussed during a review meeting with the service director. She confirmed that the form is easy to use (particularly through the use of boxes as selection options).  She also confirmed that this form will plug the data gaps within the internal KPI reporting system, as the service tags and locations will provide more accurate views on where the service needs to make major improvements and investments, in order to reduce the volume of complaints. 
+
+After the first iteration of the app will be completed, the wireframe will be tested with customers. Feedback will be sought [here](https://forms.gle/3sAep24cSECT3Pjr9). Afterwards, a high fidelity version of the app will be developed. 
+
+
+### Location
+[Here](https://it2156.github.io/Complaint-log/) is the live app. The project is still in development - the branches have not been fully developed and the final page still needs to be added. There are also a series of options that are yet to be developed (such as the ability to attach evidence, locate the issue, repair bugs etc.). 
+
+
+## Project plan
+
+### Agile project management
+
+Using the Agile methodology requires a different approach to the classical development project. Productivity tools allow managers to improve the project incrementally, through sprints, reviews and retrospectives. It is also important to integrate user requirements, project artifacts and iterative designs. Although the work is collaborative in nature, the software development team consists of multiple members who each have their own workstations - therefore, these personal environments must be managed through a collaborative platform that can merge brainstorming exercises, coding, and test artifacts (Crowder et al, 2014). 
+
+
+### Applied methodology
+
+![Screenshot](Kanban-board.JPG)
+
+Likewise, this project is managed using the Agile project management approach, because it allows the customer to give feedback frequently and see results quickly. Requests and features are added as issues and visualised on a Kanban board, which helps the scrum master keep track of the overall project. The ticketing system holds a list of all the features that are required for the project; each item is created through a specific branch, which is submitted as a pull request.The designated approver reviews this against the project requirements, then the updated item is merged to the main code. For a larger project, a sequence of sprints would need to be created - these could be based on different iterations of the website wireframe, followed by a fully designed version of the website. At the start of the project, the tasks were in the 'To Do' bucket; gradually, these are progressed, therefore the tickets get moved across the board, until they are all in the "Done" section. 
+
+
+## Code development 
+
+The repository was cloned into a local version for VS Code, which was used to create local files and write the code for one page. Afterwards, the code was pushed from the local machine to GitHub, by setting up local credentials. The change were committed to the repository which creates a pull request. This gives the approver the option to review the changes and comment on the change, approve it or request changes if potentially the updates did not meet the criteria of the ticket. Comminting changes to branches allows other developers to review the code before merging the new features to the main code. 
+
+The html pages were created in order to have the main page containers set. Each html page corresponds to a different section of the complaint form. The html pages contain general sections and divisions (div), which are styled using linked css files. For example, the LandingPage.html was linked to its corresponding css file. 
+
+The main interactive element is navigation, which happens either by clicking on one of the question options or by clicking the arrow. 
+
+
+## Testing
+
+
+### Accessibility
+The first iteration of the app scored high in performance, but low in terms of accessibility. The html pages would need a language element and title, in order to improve. 
+
+This was tested using Lighthouse.
+![image](https://github.com/it2156/Complaint-log/assets/163568886/e7f62576-8bf8-4828-92f0-f3b98a6ef2c0)
+
+
+
+
+
+## Evaluation
+
+
+### References 
+Crowder, James A., and Shelli Friess, 2014. Agile Project Management : Managing for Success. Springer, https://doi.org/10.1007/978-3-319-09018-4.
+
