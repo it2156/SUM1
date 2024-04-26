@@ -1,0 +1,401 @@
+.submit-child {
+    width: 38px;
+    height: 14.7px;
+    position: relative;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  .submit1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+  }
+  .log-a-new2 {
+    position: relative;
+    cursor: pointer;
+  }
+  .actions1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xl);
+  }
+  .step-2 {
+    position: relative;
+    display: inline-block;
+    min-width: 34px;
+  }
+  .categories,
+  .steps {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .categories {
+    flex-direction: row;
+    padding: 0 var(--padding-12xs);
+    font-size: var(--font-size-2xs);
+  }
+  .steps {
+    flex-direction: column;
+    gap: var(--gap-mid-3);
+  }
+  .description-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .problem-area {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    background-color: var(--color-darkgray);
+    width: 150px;
+    height: 13px;
+    z-index: 1;
+  }
+  .description {
+    height: 13px;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gainsboro);
+  }
+  .details,
+  .navigation2 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .details {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .navigation2 {
+    flex-direction: column;
+    gap: var(--gap-smi);
+  }
+  .what-is-the1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .home,
+  .problem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .problem {
+    flex-direction: row;
+    padding: 0 var(--padding-12xs);
+    font-size: var(--font-size-xl);
+  }
+  .home {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-2xl);
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .issue-items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .plumbing-issues-leaks {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 1;
+  }
+  .list {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .list-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .mould-growth {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: inline-block;
+    min-width: 92px;
+    z-index: 1;
+  }
+  .list1 {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .list-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .damaged-roof-or {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 1;
+  }
+  .list2 {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .list-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .heating-problems {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: inline-block;
+    min-width: 117px;
+    z-index: 1;
+  }
+  .list3 {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .list-child1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .structural-issues {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-sm);
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    z-index: 1;
+  }
+  .list4 {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+  }
+  .list-child2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .missed-appointment-from {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 1;
+  }
+  .list5 {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .list-child3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .overdue-works {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: inline-block;
+    min-width: 100px;
+    z-index: 1;
+  }
+  .list6 {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .low-quality-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .poor-quality-works {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: inline-block;
+    min-width: 123px;
+    z-index: 1;
+  }
+  .details1 {
+    height: 37px;
+    flex: 1;
+    position: relative;
+    white-space: nowrap;
+  }
+  .quality {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-12xs) 0 0;
+  }
+  .list-child4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .communal-areas {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: inline-block;
+    min-width: 111px;
+    z-index: 1;
+  }
+  .list7 {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .list-child5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .asbestos {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: inline-block;
+    min-width: 62px;
+    z-index: 1;
+  }
+  .list8 {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+  }
+  .list-child6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .other-add {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 1;
+  }
+  .list9 {
+    align-self: stretch;
+    height: 37px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .issue,
+  .issues-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .issues-list {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: var(--gap-smi);
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .issue {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-lightcyan);
+    overflow: hidden;
+    align-items: flex-start;
+    padding: var(--padding-29xl) var(--padding-9xl) var(--padding-26xl)
+      var(--padding-10xl);
+    box-sizing: border-box;
+    gap: var(--gap-24xl);
+    line-height: normal;
+    letter-spacing: normal;
+  }

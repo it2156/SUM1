@@ -1,0 +1,23 @@
+{
+  "name": "sum1",
+  "version": "1.0.0",
+  "description": "The project proposal is to create a form that allows customers to log complaints regarding the services they receive from our organisation. The customers are residents that can choose from a variety of services, such as waste management and housing repairs. Their contact details and requests are already stored into an internal CRM system. However, the current form used for logging complaints is tedious and confusing for the customer and it does not capture the essential information needed for performance analysis; the complaints typically come as large paragraphs of text, which make it difficult to extract the key information required for contract management.",
+  "main": "arrow.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it2156/SUM1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/it2156/SUM1/issues"
+  },
+  "homepage": "https://github.com/it2156/SUM1#readme",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "pkg": "^5.8.1"
+  }
+}
