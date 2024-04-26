@@ -46,7 +46,7 @@ The repository was cloned into a local version for VS Code, which was used to cr
 
 The html pages were created in order to have the main page containers set. Each html page corresponds to a different section of the complaint form. The html pages contain general sections and divisions (div), which are styled using linked css files. For example, the LandingPage.html was linked to its corresponding css file. 
 
-The main interactive element is navigation, which happens either by clicking on one of the question options or by clicking the arrow. 
+The main interactive element is navigation, which happens by clicking on one of the question options.
 
 
 ## Testing
