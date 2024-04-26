@@ -62,7 +62,7 @@ The main interactive element is navigation, which happens by clicking on one of 
 The first iteration of the app scored high in performance, but low in terms of accessibility. The html pages would need a language element and title, in order to improve. 
 
 This was tested using Lighthouse.
-![image](accessibility.jpg)
+![image](accessibility.JPG)
 
 
 ### Unit test
